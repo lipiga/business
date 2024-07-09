@@ -1,0 +1,51 @@
+.contact-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-image: linear-gradient(to bottom, white,white, transparent),
+        url("../../assets/contact1.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.contact-sec p{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px;
+}
+.contact-sec h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.contact-sec h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.contact-sec button{
+    outline: none;
+    padding: 10px 20px;
+    border: 1px solid #11212d;
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #11212d;
+}
+@media (max-width:600px) {
+    .contact-sec p{
+        font-size: 18px
+    }
+    .contact-sec h3{
+        text-align: center;
+        font-size: 20px;
+    }
+    .contact-sec h2{
+        font-size: 24px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,122 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccd0cf;
+}
+.footer img{
+    width: 300px;
+    padding: 20px;
+}
+.footer .footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 50px;
+}
+.footer .footer-content .about-us{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.footer .footer-content .about-us h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer .footer-content .about-us p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer .footer-content .quick-links h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer .footer-content .quick-links ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer .footer-content .contact h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer .footer-content .contact p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer .footer-content .contact ul{
+    display: flex;
+    gap: 10px;
+}
+.footer .footer-content .contact ul .social-icons{
+    height: 30px;
+    width: 30px;
+}
+.copy-right{
+    font-size: 20px;
+    font-weight: 300;
+}
+hr{
+    width: 100%;
+    outline: none;
+    margin: 10px 0px;
+}
+@media (max-width:600px) {
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+        .footer .footer-content .about-us{
+            align-items: center;
+        }
+        .quick-links ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer .footer-content .about-us p{
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer .footer-content .about-us h1{
+            font-size: 20px;
+        }
+        .footer .footer-content .quick-links h1{
+            font-size: 20px;
+        }
+        .footer .footer-content .quick-links ul li{
+            font-size: 12px;
+        }
+        .footer .footer-content .contact h1{
+            font-size: 20px;
+        }
+        .footer .footer-content .contact p{
+            font-size: 12px;
+        }
+        .footer .footer-content .contact .social-icons{
+            width: 20px;
+            height: 20px;
+        }
+        .footer .footer-content{
+            gap: 20px;
+        }
+        .copy-right{
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer img{
+            width: 200px;
+            padding: 10px;
+        }
+}

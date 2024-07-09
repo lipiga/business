@@ -1,0 +1,46 @@
+.company-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #253745;
+    width: 100%;
+}
+.left-section{
+    width: 50%;
+    padding: 10px 30px;
+}
+.left-section h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.left-section p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+}
+.story-text{
+    width: 50%;
+    color: #ccd0cf;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 40px;
+}
+@media (max-width:600px) {
+    .company-story{
+        padding: 0px;
+    }
+    .left-section p{
+        font-size: 10px;
+    }
+    .story-text{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .left-section h2{
+        font-size: 12px;
+    }
+}
